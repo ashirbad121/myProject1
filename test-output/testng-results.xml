@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-01T13:41:36 IST" name="Suite" finished-at="2023-12-01T13:41:43 IST" duration-ms="7272">
+    <groups>
+    </groups>
+    <test started-at="2023-12-01T13:41:36 IST" name="ChromeExec" finished-at="2023-12-01T13:41:38 IST" duration-ms="2382">
+      <class name="com.Practice.TC01Test">
+        <test-method signature="GridExec(java.lang.String)[pri:0, instance:com.Practice.TC01Test@4ec4f3a0]" started-at="2023-12-01T13:41:36 IST" name="GridExec" finished-at="2023-12-01T13:41:38 IST" duration-ms="1902" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridExec -->
+        <test-method signature="tc01Test()[pri:0, instance:com.Practice.TC01Test@4ec4f3a0]" started-at="2023-12-01T13:41:38 IST" name="tc01Test" finished-at="2023-12-01T13:41:38 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01Test -->
+      </class> <!-- com.Practice.TC01Test -->
+    </test> <!-- ChromeExec -->
+    <test started-at="2023-12-01T13:41:36 IST" name="FirefoxExec" finished-at="2023-12-01T13:41:43 IST" duration-ms="7272">
+      <class name="com.Practice.TC01Test2">
+        <test-method signature="GridExec(java.lang.String)[pri:0, instance:com.Practice.TC01Test2@5bf0d49]" started-at="2023-12-01T13:41:36 IST" name="GridExec" finished-at="2023-12-01T13:41:40 IST" duration-ms="4481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridExec -->
+        <test-method signature="tc01Test()[pri:0, instance:com.Practice.TC01Test2@5bf0d49]" started-at="2023-12-01T13:41:40 IST" name="tc01Test" finished-at="2023-12-01T13:41:43 IST" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01Test -->
+      </class> <!-- com.Practice.TC01Test2 -->
+    </test> <!-- FirefoxExec -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="FirefoxExec(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.Practice.TC01Test2">
+        <methods>
+          <include name="GridExec" invocation-numbers="0"/>
+          <include name="tc01"/>
+        </methods>
+      </class> <!-- com.Practice.TC01Test2 -->
+    </classes>
+  </test> <!-- FirefoxExec(failed) -->
+  <test thread-count="2" parallel="tests" name="ChromeExec(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="com.Practice.TC01Test">
+        <methods>
+          <include name="tc01"/>
+          <include name="GridExec" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Practice.TC01Test -->
+    </classes>
+  </test> <!-- ChromeExec(failed) -->
+</suite> <!-- Failed suite [Suite] -->
